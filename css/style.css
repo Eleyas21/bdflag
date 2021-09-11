@@ -44,6 +44,7 @@ h1{
 	border-style: solid;
     border-color: blue;
     border-radius: 5px;
+	transition: 1.5s;
 }
 .insta{
 	width: 120px;
@@ -53,6 +54,7 @@ h1{
 	border-style: solid;
   	border-color: pink;
   	border-radius: 5px;
+	transition: 1.5s;
 }
 .twt{
 	width: 120px;
@@ -62,6 +64,7 @@ h1{
 	border-style: solid;
   	border-color: skyblue;
   	border-radius: 5px;
+	transition: 1.5s;  
 }
 .yt{
 	width: 120px;
@@ -71,6 +74,7 @@ h1{
 	border-style: solid;
   	border-color: red;
   	border-radius: 5px;
+	transition: 1.5s;  
 }
 .fb:hover{
 	right:-1px;
@@ -84,6 +88,7 @@ h1{
 .yt:hover{
 	right:-1px;
 }
+
 
 .social-media{
   width: 100%;
@@ -144,7 +149,7 @@ h1{
   }
   
   .fa-youtube {
-	background: #bb0000;
+	background: #fa0707;
 	color: white;
   }
 
