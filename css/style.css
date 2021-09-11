@@ -20,7 +20,7 @@ h1{
 
 }
 .green{
-	width: 90%;
+	width: 95%;
 	height: 90%;
 	background: green;
 	position: absolute;
@@ -117,16 +117,37 @@ h1{
 		top: 22px;
 		transition: 0.3s;
 		box-shadow: 1px 3px 2px 2px;
-	
-	}
+}
 
-
-
-
+/* Here comes the Hover on icon fonts... tataaa... */
 
   .fa:hover {
 	  opacity: 0.7;
+	  background-image:     linear-gradient(
+		to right, 
+		#E7484F,
+		#E7484F 16.65%,
+		#F68B1D 16.65%,
+		#F68B1D 33.3%,
+		#FCED00 33.3%,
+		#FCED00 49.95%,
+		#009E4F 49.95%,
+		#009E4F 66.6%,
+		#00AAC3 66.6%,
+		#00AAC3 83.25%,
+		#732982 83.25%,
+		#732982 100%,
+		#E7484F 100%	   
+	  );
+	animation:slidebg 4s linear infinite;
+}
+
+@keyframes slidebg {
+	to {
+	  background-position:20vw;
+	}
   }
+  
   
   .fa-facebook {
 	background: #3B5998;
